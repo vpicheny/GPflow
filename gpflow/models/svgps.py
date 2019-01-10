@@ -78,7 +78,7 @@ class SVGPS(Model):
         else:
             X = Minibatch(X, batch_size=minibatch_size, seed=0)
             Y = Minibatch(Y, batch_size=minibatch_size, seed=0)
-            
+
         self.kerns = kerns
         self.C = len(kerns)
 
